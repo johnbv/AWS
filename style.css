@@ -1,0 +1,98 @@
+body {
+    background-color: rgb(188, 190, 190);
+    padding-top: 40px;
+    padding-bottom: 40px;
+    font-family: sans-serif, serif;
+}
+
+main {
+    display: flex;
+}
+
+article {
+    flex: 1.5;
+}
+
+.fixed-header, .fixed-footer {
+    width: 100%;
+    position: fixed;
+    background-color: rgb(206, 205, 205);
+    padding: 10px 0;
+}
+
+.fixed-header {
+    top: 0;
+    text-align: right;
+}
+
+.fixed-footer {
+    bottom: 0;
+    height: auto;
+}
+
+.container {
+    width: 80%;
+    margin: 0 auto;
+}
+
+nav a {
+    text-decoration: none;
+    padding: 7px 25px;
+    display: inline-block;
+    color: rgb(129, 129, 129);
+    text-align: center;
+    font-size: 13px;
+}
+
+li {
+    color: rgb(112, 112, 112);
+    text-decoration: none;
+    padding: 5px;
+    font-size: small;
+}
+
+aside {
+    flex: 0.4;
+    background-color: rgb(206, 205, 205);
+}
+
+h1, h2, h3, h4, h5 {
+    color: rgb(56, 56, 56);
+    text-align: center;
+}
+
+footer {
+    color: rgb(129, 129, 129);
+    text-align: center;
+}
+
+p {
+    font-size: 11px;
+    text-align: center;
+    color:rgb(153, 152, 152);
+    margin-top: 18px;
+}
+
+.p {
+    text-align: justify;
+    font-size: large;
+    color: black;
+    padding: 20px;
+    padding-top: 1px;
+}
+
+.content-box {
+    width: 70%;
+    height: auto;
+    padding: 20px;
+    border: 2px solid rgb(74, 74, 75);
+    box-sizing: border-box;
+    margin-left: 15%;
+    text-align: center;
+    font-size: small;
+    color: rgb(112, 112, 112);
+}
+
+* {
+    box-sizing: border-box;
+}
