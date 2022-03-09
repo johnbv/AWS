@@ -1,0 +1,11 @@
+The following instructions provide an overview of how to create your buckets for website hosting. For detailed, step-by-step instructions on creating a bucket, see Creating a bucket.
+
+To create a bucket
+
+Sign in to the AWS Management Console and open the Amazon S3 console at https://console.aws.amazon.com/s3/.
+Choose Create bucket.
+Enter the Bucket name (for example, example.com).
+Choose the Region where you want to create the bucket.
+Choose a Region that is geographically close to you to minimize latency and costs, or to address regulatory requirements. The Region that you choose determines your Amazon S3 website endpoint. For more information, see Website endpoints.
+To accept the default settings and create the bucket, choose Create.
+
